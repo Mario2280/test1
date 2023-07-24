@@ -1,0 +1,12 @@
+{
+	"scripts": {
+		"dev": "node node_modules/concurrently/dist/bin/concurrently.js \"node dist/server1\" \"node dist/server2\""
+	},
+	"dependencies": {
+		"fastify": "^4.20.0"
+	},
+	"devDependencies": {
+		"@types/node": "^20.4.4",
+		"concurrently": "^8.2.0"
+	}
+}
